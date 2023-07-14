@@ -1,0 +1,16 @@
+# Python-specific ignores
+*.pyc
+__pycache__/
+
+# Virtual environment
+btbaienv/
+
+# Editor and IDE files
+.vscode/
+
+# Logs
+*.log
+
+# Environment-specific ignores
+.env
+todo.txt

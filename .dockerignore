@@ -1,0 +1,35 @@
+# Ignore common Python files
+*.pyc
+__pycache__/
+
+# Ignore development and system files
+.env
+.env.*
+.git/
+*.log
+*.swp
+.gitignore
+
+# Ignore package manager files
+pip-*.log
+pip/
+*.egg-info/
+
+# Ignore testing files
+tests/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore Docker-related files
+,dockerignore
+Dockerfile
+
+# Ignore any other files or directories specific to your project
+imgs/
+# dummy_response.json
+todo.txt
+README.md
+btbaienv/
+.pytest_cache/
