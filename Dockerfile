@@ -12,7 +12,7 @@ WORKDIR /btb_ai
 # Copy the necessary files to the app directory
 COPY btb_ai/ /btb_ai/btb_ai/
 COPY run.py /btb_ai/
-COPY dummy_response.json /btb_ai/
+COPY data/ /btb_ai/data/
 COPY requirements.txt /btb_ai/
 
 # Install dependencies
